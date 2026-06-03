@@ -1,0 +1,151 @@
+/* ROOT */
+
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Playfair+Display:wght@500&display=swap');
+
+/* VARIABLES */
+.taoroot{
+  --header: url('https://i.servimg.com/u/f18/20/55/06/42/hdrsbr10.png');
+
+  --proi:#bb2424;
+  --pprince:#cfb551;
+  --pfeunoyr:#9D80D3;
+  --pneutre:#87AFE7;
+  
+  --neutral: #231a1a;
+  --neutralDark: #1b1515;
+  --neutralDarker: #3c2b2b;
+
+  --contrast: #f0e5e5;
+  --contrastLight: #f4f4f4;
+  --contrastLighter: #5e4040;
+
+  --accentClr: #ac4d4d;
+  --accentClrDark: #923333;
+
+  --textColor: #c7c5cd;
+  --textColorAccent: #e5e5f0;
+
+  --border: 1px solid var(--neutralDarker);
+
+  --shadowBox: 0 0 20px var(--neutralDark);
+  
+  --gradient1: linear-gradient(to right, #1e212a00 0%, #6c3e3e 100%) 1;
+  --gradient2: linear-gradient(to left, #1e212a00 0%, #6c3e3e 100%) 1;
+  
+  --font: "Open Sans";
+  
+  --little-size: 12px;
+  --normal-size: 14px;
+  --medium-size: 16px;
+  --large-size: 18px;
+  --title-size: 22px;
+}
+.taoroot i{color:var(--accentClrDark);}
+
+/* FICHES */
+
+.taopralign{display:flex; justify-content: space-around;}
+.taoprpleft{float:left; border-right:1px solid var(--neutralDarker); width:90%; padding:10px;}
+.taoprpright{float:right; border-left:1px solid var(--neutralDarker); width:95%; padding:10px;}
+.taoprpleft2{float:left;width:100%;}
+.taoprpright2{float:right; width:100%;}
+
+color{color:var(--accentClr) !important;}
+
+.taoprimc{width:250px;height:250px;object-fit:cover;border:2px solid var(--neutral); margin:auto; display:flex; margin-top:3%; border-radius:2px; padding:3px;}
+.taoprinfos{margin:auto; width:102%; text-align:justify; margin-top:3%; line-height:1.5;min-height:300px; max-height:320px; overflow-x:auto; padding:10px;}
+.taoprinfos2{margin:auto; width: 97%; text-align:justify; margin-top:-4%; line-height:1.5; max-height:350px; overflow-x:auto; padding-right:10px;}
+
+info{color:var(--accentClr);font-family: 'Bodoni Moda' !important; letter-spacing: 1px !important; text-transform:uppercase;border-bottom:2px solid var(--accentClrDark); font-size:13px;}
+
+.taozonetxf{text-align: justify; padding: 10px; padding-top: 0; line-height:1.5; max-height:290px; overflow-x:auto;}
+.taofamim{float: left; width: 90px; height: 98px; object-fit:contain; margin: 2px; margin-right:1.5%; padding:2px;}
+
+.taoderrecr{display:flex;}
+.taozoneava{width:100px; height:100px; object-fit:cover; flex-shrink:0; border:2px solid var(--neutral); border-radius:5px; margin-right:2%;}
+.taoalg2{display:inline; width:100%;}
+.infosjoueurs{text-align:justify; height:80px; overflow-x:auto; padding-right:10px;}
+
+.taoparatt{display:flex; justify-content:space-around;} .taoparatt img{width:70px; height:75px; border-radius:5px; border: 2px solid var(--neutral); padding: 2px; object-fit: cover; filter: grayscale(1);} .taoparatt img:hover{filter: grayscale(0);transition: all 1s ease-out;}
+
+/* CODES MJ */
+.taoevtalign{display:flex;justify-content:space-evenly;} .taoevtimg{width: 140px; height:120px; border-radius: 5px; padding: 5px; border: 1px solid var(--contrastLighter); object-fit:cover;}
+.taointermj{float: left; width: 250px; height: 125px; object-fit: cover; margin: 2px; margin-right: 1.5%; border-image: linear-gradient(to right, #1e212a00 0%, #a9a9a9 100%) 1; border-width: 2px; border-style: solid; padding: 5px;}
+mini{font-size:11px;text-transform:uppercase;padding:5px;color:var(--contrast);}
+minmin{font-size:11px;text-transform:uppercase;color:var(--accentClr);}
+
+/* BDF */
+.bdfalign{display:flex; justify-content:space-between; flex-wrap: wrap;}
+.article{width:150px;height:auto; display:grid; background-color: var(--neutral); padding: 10px; border: 1px solid var(--contrastLighter); border-radius: 5px; margin-bottom:5px;}
+.articlename{text-transform:uppercase; font-size: 12px; color: var(--accentClr); font-weight:bold; margin-bottom:8px; display:flex; align-items:center; justify-content:space-around; line-height:1.2;text-align: center; height:22px;}
+.articleim{width: 130px; height: 100px; object-fit: cover; margin: auto; border: 1px solid var(--contrastLighter); border-radius: 5px;}
+.articleprix{color: var(--contrastLight); font-size: 12px; padding: 5px; text-align: center; opacity: 45%;}
+.articledesc{font-size: 11px; text-align: justify; max-height: 150px; overflow: auto; padding-right: 5px; height:125px;}
+
+/* GEN */
+.taobackpa{background: var(--neutralDark);border-radius: 10px; padding: 10px;margin-bottom: -1%;margin-top:2%;height: auto; min-height: 100px; /* min-height:245px; */}
+.taobackpa2{background: var(--neutralDark);border-radius: 10px; padding: 10px;height: auto; min-height: 100px;}
+.taowesteros{float: left; width: 145px; height: 53px; object-fit: cover; margin: 2px; margin-right: 1.5%; border-image:linear-gradient(to right, #1e212a00 0%, #a9a9a9 100%) 1;  border-width: 2px; border-style: solid; padding: 5px;}
+.taozonetx1 strong{color:var(--accentClr);} .taozonetxf strong{color:var(--accentClr);} .taozonetx2 strong{color:var(--accentClr);} .taozonetx3 strong{color:var(--accentClr);} u{text-decoration: none; box-shadow: inset 0 -6px 0 rgb(99 110 255 / 40%);}
+cfeunoyr{color:var(--pfeunoyr);} croi{color:var(--proi);} cprince{color:var(--pprince);} cneutre{color:var(--pneutre);} 
+p1{color: var(--contrast); font-weight: lighter !important; text-transform: uppercase; font-size: 18px !important;font-family: 'Bodoni Moda' !important; letter-spacing: 4px !important; text-shadow: 2px 1px 10px var(--contrastLighter);}
+p2{color: var(--contrast);font-weight: lighter !important;font-size: 16px !important;font-family: 'Bodoni Moda' !important;letter-spacing: 1px !important;text-shadow: 0px 1px 7px var(--contrast);}
+p3{color: var(--accentClr);font-weight: lighter !important;font-size: 13px !important;text-transform: uppercase;font-family: 'Bodoni Moda' !important;letter-spacing: 2px !important;text-shadow: 0px 0px 1px var(--contrast);}
+p4{color: var(--contrastLight); font-weight: lighter !important; font-size: 16px !important;font-family: 'Bodoni Moda' !important; letter-spacing: 1.5px !important; text-shadow: 0px 1px 5px var(--accentClr); font-style: italic;}
+em{color: var(--accentClr);}
+mev{text-transform:uppercase; color:var(--accentClr); font-size:13px;}
+hr {border: none;border-top: var(--border);}
+
+h3{color: var(--contrastLight);margin: 10px 0 20px; font-size: var(--large-size); font-weight: 700;text-transform: uppercase;text-align: center; font-family: 'Bodoni Moda';letter-spacing: 3px; background-image:url(https://i.pinimg.com/736x/0f/2d/a1/0f2da1faaf8af0687ac79caea40b4b57.jpg);background-size: cover;height: 100px; border-radius: 5px 5px 0 0; border-bottom: 3px solid var(--contrastLighter);line-height: 1; padding: 15px; display: flex; align-items: center;align-content: center; justify-content: center;}
+
+/* LETTRE */
+.taoparch{width:500px; height:715px; object-fit:cover; margin:auto; background-image:url(https://i.postimg.cc/Ss0CHW2r/parchppr2.png); background-size:cover;}
+.lettertitu{font-family:'Bilbo Swash Caps';color:black; font-size:25px; padding-top:7%; text-align:center; width:420px; padding-left:13%; font-weight:bold; line-height:23px;}
+.letterdato{text-align:center; font-family:'Bilbo Swash Caps'; font-size:18px; color:black; font-weight:bold; margin-top:13%; width:100%;}
+.letterdato2{text-align:center; font-family:'Bilbo Swash Caps'; font-size:18px; color:black; font-weight:bold; width:100%;}
+
+.letterlet{width:380px; text-align:justify; font-family:'Playfair Display'; margin-left:13%; margin-top:-3%; height:420px; overflow:auto; padding:15px; font-size:14px; font-weight:bold; color:black;}
+.letterlet::first-letter{font-family:'Bilbo Swash Caps'; font-size:35px; line-height:23px;}
+
+.lettresigne{font-family: 'Bilbo Swash Caps'; font-size:22px;}
+.lettersceau{width:100px; height:100px; object-fit:cover;}
+
+/* ---------------- TAO FICHES ---------------- */
+/* FICHE PREZ*/
+.taoprh2{color: white; font-weight: lighter !important; text-transform: uppercase; font-size: 20px !important; font-family: 'Bodoni Moda' !important; letter-spacing: 3px !important; text-shadow:2px 1px 10px var(--contrastLighter);text-align: center;line-height:1;}
+.taoprlim {float: left; width: 130px; height: 70px; object-fit: cover; margin: 2px; margin-right: 1.5%; border-image: linear-gradient(to right, #1e212a00 0%, #a9a9a9 100%) 1; border-width: 2px; border-style: solid; padding: 5px;}
+.lilquote{text-align: center;font-size: 11px; text-transform: uppercase;color: var(--contrast);}
+.twfiche{width: 100%; margin: auto; background-color: var(--neutralDark); text-align: center; border-radius: 5px; border: 1px solid var(--neutralDarker);margin-top: 1%; margin-bottom: -2%;padding: 2px;}
+
+/* NOBILITY */
+.listingmaisons{max-height:340px;overflow-y:auto;}
+.taomaison{width:100%; margin:auto;}
+.taomaison .spoiler_title{text-transform: uppercase; letter-spacing: 2px;color: var(--accentClr);}
+.maisblason{height: 125px; width: auto; margin: auto; display: block; margin-top: 2%; margin-bottom: -2%;}
+
+.maisname{background-color:var(--neutral);text-align:center;font-family:'Bodoni Moda';border-radius:5px;color:var(--textColorAccent); padding:10px;font-size:25px; letter-spacing:2px; text-transform:uppercase;}
+.maiscontenu{border:1px solid var(--neutralDarker); border-radius:5px;margin-top:1%;padding:10px;color:var(--textColorAccent);}
+.maistat{text-align:center;font-size:15px;text-transform:uppercase;font-weight:bold;letter-spacing:3px;}
+.maistat pris{color:red;}
+
+.maisalign{display:flex;justify-content:space-between;padding:0 25px 0 25px;}
+.maisfief{font-size:16px;font-style:italic; float:left;}
+.maisfief span{color:var(--accentClr);font-weight:bold;}
+.maisdevise{font-size:16px;font-style:italic;font-weight:bold;float:right; color:var(--accentClr);}
+
+.maiscontenu strong{color:var(--accentClr); text-transform:uppercase; letter-spacing:2px; border-bottom: 1px solid; margin: 0 5px 0 5px; line-height:1.8; font-size:12px;}
+
+.maishov span{font-family:'Bodoni Moda'; font-size:14px; background-color:var(--neutralDarker); color:var(--textColorAccent); text-transform:uppercase; width:170px; text-align:center; border-radius:5px; margin-left:2%; padding:2px 5px 2px 5px; letter-spacing: 2px;}
+
+.maishov > .hide { max-height: 0; overflow: hidden; transition: max-height 1s ease; margin-top:2%;}
+.maishov:hover > .hide {  max-height: 1000px;
+ /* Assurez-vous que cette valeur est assez grande pour le contenu à afficher */}
+
+/* FICHES DU FORUM */
+.taozonetx1{text-align:justify;border-left:3px solid var(--neutralDarker); border-right:3px solid var(--neutralDarker); padding:15px;} .taozonetx2{text-align:justify; padding:15px; padding-top: 0; overflow-x: auto; max-height: 500px;}
+.taozonetx3{text-align:justify; padding:15px; padding-top: 0;}
+.titreimgim{background-image: url(https://i.pinimg.com/736x/0f/2d/a1/0f2da1f….jpg);object-fit: cover; height: 100px;width:100%;  border-radius: 5px 5px 0 0; border-bottom: 3px solid var(--contrastLighter);}
+
+.titreimg {color: var(--contrastLight); margin-top: -12%; margin-bottom:1%; font-size: var(--large-size); font-weight: 700; text-transform: uppercase; text-align: center; font-family: 'Bodoni Moda'; letter-spacing: 3px;   border-radius: 5px 5px 0 0; border-bottom: 3px solid var(--contrastLighter); line-height: 1;  padding: 15px; display: flex;  align-items: center; align-content: center; justify-content: center;}
+.titreimg2 {color: var(--contrastLight); margin-top: -9%; font-size: var(--large-size); font-weight: 700; text-transform: uppercase; text-align: center; font-family: 'Bodoni Moda'; letter-spacing: 3px;   border-radius: 5px 5px 0 0; border-bottom: 3px solid var(--contrastLighter); line-height: 1;  padding: 15px; display: flex;  align-items: center; align-content: center; justify-content: center;}
+.titreimg2 a{color: var(--contrastLight);}
