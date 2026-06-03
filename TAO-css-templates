@@ -1,0 +1,121 @@
+/* PA */
+.taoresume::first-letter {color: var(--accentClr);font-size:25px; border: 1px solid var(--contrastLighter); margin: 0px 5px 0px 0px;float: left;padding: 9px;font-family: 'Bodoni Moda' !important; font-weight: bold;text-shadow: 2px 1px 10px var(--accentClrDark);border-radius:5px;}
+.taopanav{display:flex; flex-wrap:wrap; justify-content:space-evenly;}.taopanav img{width:30px;height:35px;object-fit:cover;border-radius: 5px;filter: drop-shadow(0px 2px 1px black);}
+.taopapv{display:flex; flex-wrap:wrap; justify-content:space-evenly;margin-top: 2px;}
+.taopapv img{width:50px;height:70px;object-fit:cover;border-radius: 5px;filter: grayscale(1);margin-bottom: 3px; border: 1px solid var(--contrastLighter);}
+.taopapv:hover{filter: grayscale(0);transition: all 1s ease-out;}
+
+.taobackpa{background: var(--neutralDark);border-radius: 10px; padding: 10px;margin-bottom: -1%;margin-top:2%;height: auto; min-height: 100px; color: var(--contrast);}
+.taobackpa2{background: var(--neutralDark);border-radius: 10px; padding: 10px;height: auto; min-height: 100px;}
+.taopatop{display: block; text-align: center; margin: 10px 0 20px; background-image: url(https://i18.servimg.com/u/f18/20/55/06/42/toptit12.png); background-size: cover;background-position: center; border-radius: 10px 10px 0 0; 
+border-bottom: 2px solid var(--contrastLighter);color: white;  font-weight: lighter !important;  text-transform: uppercase; font-size: 40px !important; font-family: 'Bodoni Moda' !important;letter-spacing:10px !important;margin: 0px 0 5px !important;
+text-shadow: 2px 1px 10px var(--accentClrDark);}
+
+a.taonavpa{padding: 1px 3px 1px 3px; border-radius: 5px; background-color: var(--neutralDarker);line-height:1.8;font-size: var(--little-size);text-transform: uppercase;transition: all 0.3s ease;}
+a.taonavpa:hover{background-color:var(--accentClrDark); text-shadow: 0px 1px 7px black;color: white;}
+
+.taopa{width:100%;display:flex;justify-content:space-evenly;}
+.taopabloc1{width:50%;height: 200px !important; max-height:none;border: 3px solid var(--neutralDarker);margin-top:-0.5%; border-top: none; overflow-y: auto;border-radius: 0 0 5px 5px;}
+.taotxt1{text-align:justify;padding:10px;} .taopabloc2{width:50%;height:auto;min-height:150px;border: 3px solid var(--neutralDarker); overflow-y: auto;max-height: 270px;border-radius: 5px;} 
+
+.mintitle{text-transform: uppercase; border-bottom: 3px solid var(--neutralDarker); padding-left: 20px; padding-right: 20px; letter-spacing:1px; text-align:center; margin-bottom: 2%;}
+.mintitle2{text-transform: uppercase; border-top: 3px solid var(--neutralDarker); padding-left: 20px; padding-right: 20px; letter-spacing:1px; text-align:center; margin-bottom: 2%;}
+
+/*2e pt de la PA*/
+.patops{display:flex; flex-wrap:wrap;justify-content: center; max-height:125px; } .patopsites{width:50px;height:50px; margin:0 3px;filter: drop-shadow(0px 0px 1px black);}
+.taopastaff{width:90px; height:90px; border-radius:100%;border: 2px solid var(--neutralDarker);margin: 0 5px 0 5px;filter: grayscale(1);}
+.blocstaff{display:grid; padding:0;} .staffouse{text-align:center;width:90px;color: var(--contrastLight);text-transform: uppercase; font-size: var(--little-size);line-height: 1; margin-top: 3%;} .taopastaff:hover{filter: grayscale(0);transition: all 2s ease-out;}
+role{font-size: 10px;color: var(--accentClr);}
+
+/*Onglets PA*/
+$btn-color: #9AD3DE;
+
+html, body {
+width: 100%;
+height: 100%;
+padding: 0;
+margin: 0;
+position: relative;
+text-align: center;
+}
+
+body {
+display: flex;
+align-items: center;
+	
+.container {
+width: 100%;
+height: auto;
+margin: 0 auto;}
+}
+
+h2#popupTitle{font-family: 'Bodoni Moda' !important;font-weight: bold;color: var(--textColor);letter-spacing: 3px;text-align:center;text-shadow: 0px 0px 5px var(--accentClrDark);}
+
+h2 {font-size: 20px;text-transform:uppercase;}
+p {color: #666666;line-height: 1.5;}
+
+button#openMyPopup {border-radius: 100%;padding:0;
+font-size: 18px;color: #FFFFFF;cursor: pointer;width:50px;height:50px;
+background-size:cover;filter:grayscale(1); border: 1px solid var(--contrastLighter); margin: 5px;
+
+&:focus {outline: none;}
+
+&:hover {filter: grayscale(0); transition: all 2s ease-out;}
+}
+
+#closePopup{background-color:var(--contrastLighter);
+filter:grayscale(0);
+text-align:center;
+font-size:13px;
+height:20px;
+border-radius:5px;
+display: flex;
+margin: auto;
+align-items: center;
+text-transform: uppercase;}
+
+.popup {
+  background: rgba(100, 100, 100, 0.6);
+  position: fixed;
+  display: none;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.popup .wrapper {width: 500px !important; padding: 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--neutralDark);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+}
+
+p#popupText{text-align: center;max-height:43px;overflow:auto; padding:0 5px 0 5px;margin-bottom: -0.5%;}
+#popupText span{color:var(--accentClr); text-transform:uppercase; font-size:13px;}
+button#closePopup{font-family:var(--font);}
+
+/********** QEEL **********/
+#total_users whoshere{text-transform:uppercase;font-size:12px;letter-spacing:1px;text-decoration:underline; font-weight: 600;font-family: 'Bodoni Moda';}
+#roi groupname{color: var(--proi); border-bottom: 2px solid #652929;} #prince groupname{color: var(--pprince); border-bottom: 2px solid #9c8d44;}
+#feunoyr groupname{color: var(--pfeunoyr); border-bottom: 2px solid #38255C;} #neutre groupname{color: var(--pneutre); border-bottom: 2px solid #203553;}
+
+#last_connected{max-height: 105px; overflow-y: auto; padding-right:10px; font-size:13px;}
+.taogroupesqeel{width: 210px; height: 50px;  border-radius: 10px; display:flex; justify-content: space-around; margin: auto; margin-top:5%;}
+.grpcoulr{height: 100%; width: 45px; border-radius: 10px; border: none;  cursor: pointer; filter: grayscale(0.7); transition: filter 0.4s; }
+.grpcoulr.active{ filter: grayscale(0);}
+#colprince{ background-color:#a79541;} #colroi{background-color: #752020; }
+#colfeu{background-color: #141010; } #colneut {background-color: #2e69bd; }
+.tab{display: none; padding: 10px; border-radius: 10px;  color:white; width:99%; text-align:justify; max-height:120px; overflow-y:auto;}
+.tabbloctao{display:flex;width:100%; background-color:var(--neutralDark); height:125px;margin-top: 3%; border-radius:10px;}
+#tabs{margin-top:0;}
+.groupimg{float: left; width: 75px; height: 55px; object-fit: cover;  margin: 2px;  margin-right: 2%; border-image: linear-gradient(to right, #e3f9ff 0%, #275f7f 100%) 1;    border-width: 1px; border-style: solid;  padding: 2px;}
+groupname{text-transform: uppercase; padding-left: 10px;padding-right: 10px;text-align:center;  font-weight: 600;  letter-spacing: 2px;}
+i.cp, span.cp{font-size: 30px; color:var(--contrastLight);}
+#newest_user{font-size: var(--medium-size); text-align: center;} #newest_user strong{text-transform: uppercase;letter-spacing: 1px;}
+.taopartos{max-height: 105px;overflow-y: auto; display: flex; flex-wrap: wrap;justify-content: space-evenly;}
+.taopartos img{border:1px solid var(--neutralDarker);}
