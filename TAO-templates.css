@@ -116,6 +116,7 @@ button#closePopup{font-family:var(--font);}
 .groupimg{float: left; width: 75px; height: 55px; object-fit: cover;  margin: 2px;  margin-right: 2%; border-image: linear-gradient(to right, #e3f9ff 0%, #275f7f 100%) 1;    border-width: 1px; border-style: solid;  padding: 2px;}
 groupname{text-transform: uppercase; padding-left: 10px;padding-right: 10px;text-align:center;  font-weight: 600;  letter-spacing: 2px;}
 i.cp, span.cp{font-size: 30px; color:var(--contrastLight);}
-#newest_user{font-size: var(--medium-size); text-align: center;} #newest_user strong{text-transform: uppercase;letter-spacing: 1px;}
+#newest_user{font-size: var(--medium-size); text-align: center;}
+#newest_user strong{text-transform: uppercase;  text-transform: uppercase; letter-spacing: 3px;font-family: "bodoni moda";font-weight: normal;}
 .taopartos{max-height: 105px;overflow-y: auto; display: flex; flex-wrap: wrap;justify-content: space-evenly;}
 .taopartos img{border:1px solid var(--neutralDarker);}
