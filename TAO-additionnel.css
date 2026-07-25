@@ -4,23 +4,23 @@
 
 /* VARIABLES */
 .taoroot{
-  --header: url('https://i.servimg.com/u/f18/20/55/06/42/hdrsbr10.png');
+  --header: url('https://i.postimg.cc/cJQbHjWH/header02.png');
 
   --proi:#bb2424;
   --pprince:#cfb551;
   --pfeunoyr:#9D80D3;
   --pneutre:#87AFE7;
   
-  --neutral: #231a1a;
-  --neutralDark: #1b1515;
-  --neutralDarker: #3c2b2b;
+  --neutral: #1e1526;
+  --neutralDark: #130b15;
+  --neutralDarker: #342b3c;
 
   --contrast: #f0e5e5;
   --contrastLight: #f4f4f4;
-  --contrastLighter: #5e4040;
+  --contrastLighter: #4b405e;
 
-  --accentClr: #ac4d4d;
-  --accentClrDark: #923333;
+  --accentClr: #be9c40;
+  --accentClrDark: #543e83;
 
   --textColor: #c7c5cd;
   --textColorAccent: #e5e5f0;
@@ -29,8 +29,8 @@
 
   --shadowBox: 0 0 20px var(--neutralDark);
   
-  --gradient1: linear-gradient(to right, #1e212a00 0%, #6c3e3e 100%) 1;
-  --gradient2: linear-gradient(to left, #1e212a00 0%, #6c3e3e 100%) 1;
+  --gradient1: linear-gradient(to right, #1e212a00 0%, #be9c40 100%) 1;
+  --gradient2: linear-gradient(to left, #1e212a00 0%, #be9c40 100%) 1;
   
   --font: "Open Sans";
   
