@@ -56,7 +56,7 @@ color{color:var(--accentClr) !important;}
 .taoprinfos{margin:auto; width:102%; text-align:justify; margin-top:3%; line-height:1.5;min-height:300px; max-height:320px; overflow-x:auto; padding:10px;}
 .taoprinfos2{margin:auto; width: 97%; text-align:justify; margin-top:-4%; line-height:1.5; max-height:350px; overflow-x:auto; padding-right:10px;}
 
-info{color:var(--accentClr);font-family: 'Bodoni Moda' !important; letter-spacing: 1px !important; text-transform:uppercase;border-bottom:2px solid var(--accentClrDark); font-size:13px;}
+info{color:var(--accentClr);font-family: 'Bodoni Moda' !important; letter-spacing: 1px !important; text-transform:uppercase;border-bottom:2px solid var(--neutralDarker); font-size:13px;}
 
 .taozonetxf{text-align: justify; padding: 10px; padding-top: 0; line-height:1.5; max-height:290px; overflow-x:auto;}
 .taofamim{float: left; width: 90px; height: 98px; object-fit:contain; margin: 2px; margin-right:1.5%; padding:2px;}
